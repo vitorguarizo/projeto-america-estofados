@@ -89,7 +89,7 @@ article h2 {
     font-family: var(--fonte-titulo);
     font-weight: normal;
     color: #bb2632;
-    background-image: linear-gradient(to right, var(--cor0), transparent);
+    
     border-radius: 4px;
 }
 
@@ -109,6 +109,21 @@ article p.centro {
     font-family: var(--fonte-destaque);
     font-weight: normal;
     color: var(--cor4);
+}
+
+.conteiner {
+    
+
+    position: relative;
+}
+
+.conteudo {
+    padding-left: 10px;
+
+    position: absolute;
+
+    left: 50%;
+    
 }
 
 img {
