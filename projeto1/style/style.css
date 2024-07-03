@@ -111,7 +111,17 @@ article p.centro {
     color: var(--cor4);
 }
 
-.conteiner {
+article a {
+    color: var(--cor2);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+/*.conteiner {
     
 
     position: relative;
@@ -124,7 +134,7 @@ article p.centro {
 
     left: 50%;
     
-}
+}*/
 
 img {
     border-radius: 10px;
